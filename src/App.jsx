@@ -51,7 +51,8 @@
  
  
  import React from "react";
- import GameList from "./components/gamelist";
+//  import GameList from "./components/gamelist";
+import GameList1 from "./components/GameList1";
  
  const games = [
    {
@@ -205,7 +206,8 @@
    return (
      <div style={{ textAlign: "center", padding: "20px", fontSize: "28px" }}>
        <h1><b>BROWSE OUR TOP VIDEO GAMES</b></h1>
-       <GameList games={games} />
+       {/* <GameList games={games} /> */}
+       <GameList1 games={games} />
      </div>
    );
  }
